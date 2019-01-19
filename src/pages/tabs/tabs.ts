@@ -5,11 +5,12 @@ import { ContactPage } from '../contact/contact';
 import { HomePage } from '../home/home';
 
 @Component({
+  selector: 'tabs-bar',
   templateUrl: 'tabs.html'
 })
 export class TabsPage {
 
-  tab1Root = HomePage;
+  tab1Root = AboutPage;
   tab2Root = AboutPage;
   tab3Root = ContactPage;
 
