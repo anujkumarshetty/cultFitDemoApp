@@ -19,7 +19,6 @@ export class ContactPage {
     ;
 
   constructor(public navCtrl: NavController) {
-    let items: string[] = ["Accounts", "Orders", "My Chanllenges", "Active packs / Subscriptions", "Medical Records", "Fitness Devices", "Support", "App Update"];
   }
 
 

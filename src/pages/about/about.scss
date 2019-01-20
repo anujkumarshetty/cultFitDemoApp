@@ -1,12 +1,76 @@
 page-about {
+    .main-header {
+        margin-top: 13px;
+    }
     .logo {
         width: 30px;
         height: 30px;
     }
-    .title{
-        
+    .main-title {
+        position: fixed;
+        top: 10px;
+        right: 35px;
+        font-size: 13px;
     }
     .toolbar-background {
         background-color: white;
-      }
+    }
+    .live-icon {
+        background: #66f3b5;
+        width: 8px;
+        height: 8px;
+        top: 4px;
+        position: absolute;
+        border-radius: 51%;
+        right: -11px;
+    }
+    .subheader {
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: -19px;
+        z-index: -1
+    }
+    .seperator {
+        color: grey;
+        opacity: 0.5;
+    }
+    .row-align {
+        padding-top: 10px
+    }
+    .arrow {
+        color: #ff748c;
+        font-size: 21px;
+    }
+    .scroll-zoom-wrapper {
+        white-space: nowrap;
+    }
+    .slide-card {
+        // width: 300px !important;
+        display: inline-block; // background-color: aqua
+    }
+    ion-scroll {
+        min-height: 110px;
+        .scroll-content {
+            padding: 0px !important;
+        }
+    }
+    .slider-image {
+        border-radius: 4px;
+        max-width: 95px;
+    }
+    .slider-main-title {
+        font-size: 11px;
+        padding-left: 5px;
+        font-weight: bold;
+        color: #5d5656;
+    }
+    .slider-title-text {
+        word-wrap: break-word;
+        border: 1px solid black;
+    }
+    .x-grid {
+        width: 260px;
+        padding: 0px;
+    }
 }

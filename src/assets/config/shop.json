@@ -1,0 +1,121 @@
+[
+    {
+        "category": "ALL DAY MEALS",
+        "menu": [
+            {
+                "title": "Chilli Tofu Hakka Noodles",
+                "calories": "575 cal",
+                "offerPrice": "₹99",
+                "originalPrice": "₹70",
+                "image": "https://res.cloudinary.com/www-curefit-com/image/upload/w_350,ar_1.33,fl_progressive,f_auto,q_auto/dpr_2/image/singles/eat/meals/EAT4154/1.jpg",
+                "foodType": "https://upload.wikimedia.org/wikipedia/commons/7/78/Indian-vegetarian-mark.svg"
+            },
+            {
+                "title": "Lucknowi Veg Biryani",
+                "calories": "775 cal",
+                "offerPrice": "₹99",
+                "originalPrice": "₹190",
+                "image": "https://res.cloudinary.com/www-curefit-com/image/upload/w_485,f_auto,ar_485:605,c_fit,q_auto/dpr_2/image/singles/eat/meals/EAT3673/4.jpg",
+                "foodType": "https://upload.wikimedia.org/wikipedia/commons/7/78/Indian-vegetarian-mark.svg"
+            },
+            {
+                "title": "Masala Egg Curry & Vegetable Pulao",
+                "calories": "598 cal",
+                "offerPrice": "₹99",
+                "originalPrice": "₹175",
+                "image": "https://res.cloudinary.com/www-curefit-com/image/upload/w_485,f_auto,ar_485:605,c_fit,q_auto/dpr_2/image/singles/eat/meals/EAT3992/4.jpg",
+                "foodType": "http://www.iec.edu.in/app/webroot/img/Icons/84246.png"
+            },
+            {
+                "title": "Lucknowi Chicken Biryani",
+                "calories": "756 cal",
+                "offerPrice": "₹99",
+                "originalPrice": "₹220",
+                "image": "https://res.cloudinary.com/www-curefit-com/image/upload/w_485,f_auto,ar_485:605,c_fit,q_auto/dpr_2/image/singles/eat/meals/EAT3674/3.jpg",
+                "foodType": "http://www.iec.edu.in/app/webroot/img/Icons/84246.png"
+            }
+        ]
+    },
+    {
+        "category": "SMOOTHIES",
+        "menu": [
+            {
+                "title": "Detox Smoothie",
+                "calories": "280 cal",
+                "offerPrice": "₹99",
+                "originalPrice": "₹120",
+                "image": "https://res.cloudinary.com/www-curefit-com/image/upload/w_485,f_auto,ar_485:605,c_fit,q_auto/dpr_2/image/singles/eat/meals/EAT3637/1.jpg",
+                "foodType": "https://upload.wikimedia.org/wikipedia/commons/7/78/Indian-vegetarian-mark.svg"
+            },
+            {
+                "title": "Berry Blast Smoothie",
+                "calories": "169 cal",
+                "offerPrice": "₹99",
+                "originalPrice": "₹120",
+                "image": "https://res.cloudinary.com/www-curefit-com/image/upload/w_485,f_auto,ar_485:605,c_fit,q_auto/dpr_2/image/singles/eat/meals/EAT3638/1.jpg",
+                "foodType": "https://upload.wikimedia.org/wikipedia/commons/7/78/Indian-vegetarian-mark.svg"
+            },
+            {
+                "title": "The Anti-oxidant Kick",
+                "calories": "89 cal",
+                "offerPrice": "₹99",
+                "originalPrice": "₹120",
+                "image": "https://res.cloudinary.com/www-curefit-com/image/upload/w_485,f_auto,ar_485:605,c_fit,q_auto/dpr_2/image/singles/eat/meals/EAT1118/4.jpg",
+                "foodType": "https://upload.wikimedia.org/wikipedia/commons/7/78/Indian-vegetarian-mark.svg"
+            },
+            {
+                "title": "Healthy Snickers Smoothie",
+                "calories": "228 cal",
+                "offerPrice": "₹99",
+                "originalPrice": "₹120",
+                "image": "https://res.cloudinary.com/www-curefit-com/image/upload/w_485,f_auto,ar_485:605,c_fit,q_auto/dpr_2/image/singles/eat/meals/EAT3642/1.jpg",
+                "foodType": "https://upload.wikimedia.org/wikipedia/commons/7/78/Indian-vegetarian-mark.svg"
+            }
+        ]
+    },
+    {
+        "category": "ENERGY BARS",
+        "menu": [
+            {
+                "title": "On the Run Energy Bar (Choco Crunch)",
+                "calories": "151 cal",
+                "offerPrice": "₹50",
+                "originalPrice": "₹70",
+                "image": "https://res.cloudinary.com/www-curefit-com/image/upload/w_485,f_auto,ar_485:605,c_fit,q_auto/dpr_2/image/singles/eat/meals/EAT3997/1.jpg",
+                "foodType": "https://upload.wikimedia.org/wikipedia/commons/7/78/Indian-vegetarian-mark.svg"
+            },
+            {
+                "title": "On the Run Energy Bar (Oats & Apricot)",
+                "calories": "134 cal",
+                "offerPrice": "₹50",
+                "originalPrice": "₹70",
+                "image": "https://res.cloudinary.com/www-curefit-com/image/upload/w_485,f_auto,ar_485:605,c_fit,q_auto/dpr_2/image/singles/eat/meals/EAT3996/1.jpg",
+                "foodType": "https://upload.wikimedia.org/wikipedia/commons/7/78/Indian-vegetarian-mark.svg"
+            },
+            {
+                "title": "Yoga Bar: Nuts & Seeds",
+                "calories": "169 cal",
+                "offerPrice": "₹40",
+                "originalPrice": "₹60",
+                "image": "https://res.cloudinary.com/www-curefit-com/image/upload/w_485,f_auto,ar_485:605,c_fit,q_auto/dpr_2/image/singles/eat/meals/EAT909/5.jpg",
+                "foodType": "https://upload.wikimedia.org/wikipedia/commons/7/78/Indian-vegetarian-mark.svg"
+            },
+            {
+                "title": "On the Run Energy Bar (Hazelnut Magic)",
+                "calories": "140 cal",
+                "offerPrice": "₹50",
+                "originalPrice": "₹70",
+                "image": "https://res.cloudinary.com/www-curefit-com/image/upload/w_485,f_auto,ar_485:605,c_fit,q_auto/dpr_2/image/singles/eat/meals/EAT3998/1.jpg",
+                "foodType": "https://upload.wikimedia.org/wikipedia/commons/7/78/Indian-vegetarian-mark.svg"
+            },
+            {
+                "title": "On the Run Energy Bar (Fig & Dates)",
+                "calories": "112 cal",
+                "offerPrice": "₹50",
+                "originalPrice": "₹70",
+                "image": "https://res.cloudinary.com/www-curefit-com/image/upload/w_485,f_auto,ar_485:605,c_fit,q_auto/dpr_2/image/singles/eat/meals/EAT3995/1.jpg",
+                "foodType": "https://upload.wikimedia.org/wikipedia/commons/7/78/Indian-vegetarian-mark.svg"
+            }
+        ]
+    }
+]

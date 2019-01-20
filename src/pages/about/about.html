@@ -1,14 +1,94 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
+    <ion-title class="main-header">
       <img class="logo" src=" ./assets/imgs/curefit.png" alt="">
-      <span class="title"> About</span>
+      <span class="main-title">Bangalore
+        <span class="live-icon"></span>
+      </span>
     </ion-title>
   </ion-navbar>
-  <ion-toolbar>
-    <ion-title>Subheader</ion-title>
+  <ion-toolbar class="subheader">
+    <ion-grid>
+      <ion-row class="row-align">
+        <ion-col>
+          eat.fit
+        </ion-col>
+        <ion-col class="seperator" col-auto>
+          |
+        </ion-col>
+        <ion-col>
+          cult.fit
+        </ion-col>
+        <ion-col class="seperator" col-auto>
+          |
+        </ion-col>
+        <ion-col>
+          mind.fit
+        </ion-col>
+        <ion-col class="seperator" col-auto>
+          |
+        </ion-col>
+        <ion-col>
+          care.fit
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </ion-toolbar>
 </ion-header>
 <ion-content padding>
+
+  <ion-card>
+    <ion-slides loop="true" autoplay="3000" pager>
+      <ion-slide *ngFor="let num of [1,2,3,4]">
+        <img src="./assets/imgs/{{num}}.png" alt="">
+      </ion-slide>
+    </ion-slides>
+  </ion-card>
+
+  <ion-item no-lines>
+    <h2><b>eat.fit</b></h2>
+    <p>Healthy and tasty meals</p>
+    <ion-icon class="arrow" name="md-arrow-forward" item-end></ion-icon>
+  </ion-item>
+
+  <span *ngFor="let item of items">
+    <h6 style="padding-left:10px">{{item.category}}</h6>
+
+    <ion-scroll scrollX="true" direction="x">
+      <span *ngFor="let meal of item.menu" class="slide-card">
+        <ion-grid class="x-grid">
+          <ion-row>
+            <ion-col col-5>
+              <img class="slider-image" src="{{meal.image}}"
+                width="160px" height="80px">
+            </ion-col>
+            <ion-col col-7 text-wrap class="slider-main-title">
+              <ion-row style="height:34px">
+                {{meal.title}}
+              </ion-row>
+              <ion-row>
+                <ion-col style="padding-left:0;margin-left:0px;">
+                  <img width="8px" height="8px" src="{{meal.foodType}}">
+                  <span style="font-size: 10px;color:grey;opacity: 0.8;">{{meal.calories}}</span>
+                </ion-col>
+                <ion-col style="text-align: right;font-size: 10px;color:grey;opacity: 0.8;text-decoration: line-through;">
+                  {{meal.originalPrice}}
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col style="padding-left:0;margin-left:0px;">
+                  <span style="opacity:0.8">Offer price</span>
+                </ion-col>
+                <ion-col style="text-align: right;font-size: 10px;">
+                  {{meal.offerPrice}}
+                </ion-col>
+              </ion-row>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </span>
+    </ion-scroll>
+    <!-- <hr /> -->
+  </span>
 
 </ion-content>
